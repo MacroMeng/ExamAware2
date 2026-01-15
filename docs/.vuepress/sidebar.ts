@@ -7,7 +7,7 @@ export default sidebar({
       text: '使用文档',
       icon: 'book-open',
       prefix: 'usage/',
-      children: ['']
+      children: ['quickstart']
     },
     {
       text: '插件开发',
