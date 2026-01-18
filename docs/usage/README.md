@@ -6,7 +6,7 @@
 
 欢迎使用 ExamAware 2！
 
-## 下载与安装
+## 快速开始
 
 参照 [快速开始](./quickstart.md) 来快速上手 ExamAware 2。
 
