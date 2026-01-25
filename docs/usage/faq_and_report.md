@@ -1,4 +1,4 @@
-# 常见问题与报告问题
+# 常见问题 / 报告问题
 
 ::: tip 总览
 
@@ -22,6 +22,8 @@ ExamAware 2 默认使用阿里云 NTP 服务器同步时间。如果您学校的
 
 如果您在使用 ExamAware 2 时遇到了问题，您可以在 GitHub 上报告问题。请按照以下步骤操作：
 
+### 在 GitHub 上报告 (推荐)
+
 ::: tip
 
 您需要至少有一个 GitHub 账号才能报告问题。您可以在互联网上找到如何创建 GitHub 账号的方法。
@@ -34,8 +36,8 @@ GitHub 有时在中国大陆访问速度较慢，您可以尝试使用代理访�
 
 :::
 
-1. 访问 [ExamAware 2 的 GitHub 仓库](https://github.com/ExamAware/ExamAware2/issues/new)。
-2. 填写问题的标题和描述。
+1. 访问 [ExamAware 2 | 提交新 Issue](https://github.com/ExamAware/ExamAware2/issues/new)。
+2. 按照提示，详细地填写您遇到的问题。
 3. 提交这个 Issue。
 
 ::: important
@@ -59,3 +61,9 @@ GitHub 有时在中国大陆访问速度较慢，您可以尝试使用代理访�
 > —— Apache 官方文档 Gettings Started 篇章
 
 :::
+
+### 在用户群内询问
+
+您可以在 ExamAware 2 官方用户群内询问问题。
+
+- QQ 群：901670561 | [🤪大傻子考试知道会所](https://qm.qq.com/q/z1sgscCQoi)
