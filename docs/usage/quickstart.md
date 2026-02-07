@@ -56,7 +56,7 @@ ExamAware 2 支持以下操作系统与架构：
 3. 在左侧的“所有作业”或“All jobs”中，找到与您的操作系统对应的作业，并点击它。
    - 比如，若您使用 Windows™ 系统，请找到`Build Windows Latest`作业。
 4. 在右侧作业详情中，展开“Upload artifacts to workflow”。
-5. 找到与`Artifact download URL: https://github.com/ExamAware/ExamAware2/actions/runs/xxxxxx/artifacts/xxxxxx`（其中xxxxxx对应数字）相似的行。这里的网址即是您需要下载的安装程序。
+5. 找到与 `Artifact download URL: https://github.com/ExamAware/ExamAware2/actions/runs/xxxxxx/artifacts/xxxxxx`（其中xxxxxx对应数字）相似的行。这里的网址即是您需要下载的安装程序。
 
 ## 基本使用
 
@@ -64,7 +64,7 @@ ExamAware 2 支持以下操作系统与架构：
 
 ::: info
 
-接下来的部分将以运行 Windows™ 11 25H2 的计算机作为例子。在其它系统上可能有些许不同，但软件功能部分没有差异。
+接下来的部分将以运行在 Windows™ 11 25H2 的 ExamAware 2 v1.2.1 (马路) 作为例子。在其它系统上可能有些许不同，但软件功能部分没有差异。
 
 :::
 
