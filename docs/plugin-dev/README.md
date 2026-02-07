@@ -14,7 +14,7 @@
 
 - 在 `package.json` 里用 `examaware` 字段说明清楚入口和依赖。
 - **main 入口**：主进程扩展（服务、IPC、托盘、时间线）。
-- **renderer 入口（可选）**：提供前端 UI（设置页、播放器工具栏、浮层）。
+- **renderer 入口** _(可选)_：提供前端 UI（设置页、播放器工具栏、浮层）。
 - **服务**：`services.provide` / `services.inject` 让宿主按依赖顺序加载，卸载时逆序收尾。
 
 要进一步入门插件开放，请参阅 [快速开始](./quickstart.md)。
