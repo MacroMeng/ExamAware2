@@ -1,6 +1,11 @@
 # 打包与分发
 
-ExamAware 插件可打包为 `.ea2x`，便于在目标设备快速安装。
+::: tip 总览
+本页面将教会你将插件打包为 `.ea2x` 文件，并将它们分发给目标用户。
+
+:::
+
+ExamAware 插件可打包为 `.ea2x` 文件，便于在目标设备快速安装。
 
 ## 打包步骤
 
@@ -9,6 +14,7 @@ ExamAware 插件可打包为 `.ea2x`，便于在目标设备快速安装。
 pnpm build
 
 # 使用 SDK 提供的打包脚本
+# 需要将 `my-plugin.ea2x` 替换为你的插件文件
 pnpm dlx @dsz-examaware/plugin-sdk pack-examaware-plugin ./dist my-plugin.ea2x
 ```
 
@@ -17,7 +23,7 @@ pnpm dlx @dsz-examaware/plugin-sdk pack-examaware-plugin ./dist my-plugin.ea2x
 
 ## 包内结构
 
-```
+```tree
 my-plugin.ea2x
 └── package.json
 └── dist/
@@ -32,5 +38,5 @@ my-plugin.ea2x
 
 ## 版本与兼容性
 
-- 遵循语义化版本，记录破坏性变更。
+- 遵循[语义化版本](https://semver.org/lang/zh-CN/)，记录破坏性变更。
 - 如果依赖宿主提供的服务，请在 README 中标注最低宿主版本。

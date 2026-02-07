@@ -1,6 +1,11 @@
-# 插件 API 概览
+# 插件 API
 
-可以看示例插件。
+::: tip 总览
+本页面将描述 ExamAware 2 插件 API。
+
+:::
+
+请参阅示例插件。
 
 ## manifest 示例
 
@@ -150,22 +155,24 @@ export default async function setupRenderer(ctx: PluginRuntimeContext) {
 
 其他可用接口可参考 ExamAware Desktop 源码。
 
-## 生命周期速查
+## 提示
+
+### 生命周期速查
 
 - 加载：宿主按依赖拓扑加载，执行主进程入口；若有渲染入口，随后注入到 renderer。
 - 重载：触发卸载（运行 `effect` 清理、停止 `HostedService`）后重新执行入口。
 - 卸载：先释放依赖 effect，再停止本插件注册的托管服务。
 
-## 服务与依赖
+### 服务与依赖
 
 - 在 manifest 的 `services.provide` 列出对外服务名；`services.inject` 列出需要的外部服务，缺失会阻塞加载。
 - 服务命名建议带命名空间（如 `examaware.core.*`），避免冲突。
 
-## 配置使用示例
+### 配置使用示例
 
 模板主进程通过 `context.ctx.config?.message` 读取配置，并提供默认值。在宿主侧更新配置后重载插件即可生效。
 
-## 日志与排查
+### 日志与排查
 
 - 使用 `ctx.logger` / `context.ctx.logger` 在关键步骤记录：服务注册、配置读取、生命周期钩子进入/退出。
 - 遇到缓存或热重载问题，可检查宿主日志中插件 load/reload 的顺序与服务名。
